@@ -2,42 +2,42 @@
 	const items = [
 		{
 			img: 'food-1.jpg',
-			title: 'Syöppä tämä',
+			title: 'Raikasta salaattia',
 			link: 'http://localhost:5173/'
 		},
 		{
 			img: 'food-2.jpg',
-			title: 'Hyvää sapuskaa suoraan maailmalta',
+			title: 'Kunnolla kasviksia että jaksaa',
 			link: 'http://localhost:5173/'
 		},
 		{
 			img: 'food-3.jpg',
-			title: 'Hyvää sapuskaa suoraan maailmalta',
+			title: 'Chilipaahtopaistia',
 			link: 'http://localhost:5173/'
 		},
 		{
 			img: 'food-4.jpg',
-			title: 'Hyvää sapuskaa suoraan maailmalta',
+			title: 'Vohvelit maistuu aina',
 			link: 'http://localhost:5173/'
 		},
 		{
 			img: 'food-5.jpg',
-			title: 'Hyvää sapuskaa suoraan maailmalta',
+			title: 'Tänään syödään vähän hienommin',
 			link: 'http://localhost:5173/'
 		},
 		{
 			img: 'food-6.jpg',
-			title: 'Hyvää sapuskaa suoraan maailmalta',
+			title: 'Herkulliset kasvispyörykät',
 			link: 'http://localhost:5173/'
 		},
 		{
 			img: 'food-7.jpg',
-			title: 'Hyvää sapuskaa suoraan maailmalta',
+			title: 'Raikas pestopasta!',
 			link: 'http://localhost:5173/'
 		},
 		{
 			img: 'food-8.jpg',
-			title: 'Hyvää sapuskaa suoraan maailmalta',
+			title: 'Lohta pedillä',
 			link: 'http://localhost:5173/'
 		}
 	];
@@ -52,9 +52,9 @@
 	<div class="flex flex-wrap justify-center">
 		{#each items as item}
 			<div class="flex flex-col bg-white shadow-md m-4 sm:w-52">
-				<img class="object-cover sm:h-48 sm:w-44 m-1" src={`/images/${item.img}`} alt="" />
+				<img class="object-cover sm:h-48 m-1" src={`/images/${item.img}`} alt="" />
 				<h2 class="text-center px-2 w-44">{item.title}</h2>
-				<a href={item.link}>Linkki</a>
+				<!-- <a href={item.link}>Linkki</a> -->
 			</div>
 		{/each}
 	</div>

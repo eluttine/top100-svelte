@@ -39,6 +39,21 @@
 			img: 'food-8s.jpg',
 			title: 'Lohta pedillä',
 			link: 'http://localhost:5173/'
+		},
+		{
+			img: 'food-9s.jpg',
+			title: 'Lättyjä!',
+			link: 'http://localhost:5173/'
+		},
+		{
+			img: 'food-10s.jpg',
+			title: 'Herkullinen hampurilainen',
+			link: 'http://localhost:5173/'
+		},
+		{
+			img: 'food-11s.jpg',
+			title: 'Pientä purtavaa',
+			link: 'http://localhost:5173/'
 		}
 	];
 </script>

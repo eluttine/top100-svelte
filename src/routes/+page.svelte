@@ -1,42 +1,42 @@
 <script>
 	const items = [
 		{
-			img: 'food-1.jpg',
+			img: 'food-1s.jpg',
 			title: 'Raikasta salaattia',
 			link: 'http://localhost:5173/'
 		},
 		{
-			img: 'food-2.jpg',
+			img: 'food-2s.jpg',
 			title: 'Kunnolla kasviksia että jaksaa',
 			link: 'http://localhost:5173/'
 		},
 		{
-			img: 'food-3.jpg',
+			img: 'food-3s.jpg',
 			title: 'Chilipaahtopaistia',
 			link: 'http://localhost:5173/'
 		},
 		{
-			img: 'food-4.jpg',
+			img: 'food-4s.jpg',
 			title: 'Vohvelit maistuu aina',
 			link: 'http://localhost:5173/'
 		},
 		{
-			img: 'food-5.jpg',
+			img: 'food-5s.jpg',
 			title: 'Tänään syödään vähän hienommin',
 			link: 'http://localhost:5173/'
 		},
 		{
-			img: 'food-6.jpg',
+			img: 'food-6s.jpg',
 			title: 'Herkulliset kasvispyörykät',
 			link: 'http://localhost:5173/'
 		},
 		{
-			img: 'food-7.jpg',
+			img: 'food-7s.jpg',
 			title: 'Raikas pestopasta!',
 			link: 'http://localhost:5173/'
 		},
 		{
-			img: 'food-8.jpg',
+			img: 'food-8s.jpg',
 			title: 'Lohta pedillä',
 			link: 'http://localhost:5173/'
 		}

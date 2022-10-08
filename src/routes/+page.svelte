@@ -1,61 +1,6 @@
-<script>
-	const items = [
-		{
-			img: 'food-1s.jpg',
-			title: 'Raikasta salaattia',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-2s.jpg',
-			title: 'Kunnolla kasviksia että jaksaa',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-3s.jpg',
-			title: 'Chilipaahtopaistia',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-4s.jpg',
-			title: 'Vohvelit maistuu aina',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-5s.jpg',
-			title: 'Tänään syödään vähän hienommin',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-6s.jpg',
-			title: 'Herkulliset kasvispyörykät',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-7s.jpg',
-			title: 'Raikas pestopasta!',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-8s.jpg',
-			title: 'Lohta pedillä',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-9s.jpg',
-			title: 'Lättyjä!',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-10s.jpg',
-			title: 'Herkullinen hampurilainen',
-			link: 'http://localhost:5173/'
-		},
-		{
-			img: 'food-11s.jpg',
-			title: 'Pientä purtavaa',
-			link: 'http://localhost:5173/'
-		}
-	];
+<script lang="ts">
+	export let data;
+	const { items } = data;
 </script>
 
 <div class="w-full min-h-screen bg-gray-100 p-7">
@@ -68,7 +13,7 @@
 		<div class="flex flex-wrap justify-center">
 			{#each items as item}
 				<div class="flex flex-col bg-white shadow-md m-4 w-52">
-					<img class="object-cover m-1 h-52" src={`/images/${item.img}`} alt="" loading="lazy" />
+					<img class="object-cover m-1 h-52" src={`/images/${item.image}`} alt="" loading="lazy" />
 					<h2 class="text-center px-2 w-52">{item.title}</h2>
 					<!-- <a href={item.link}>Linkki</a> -->
 				</div>

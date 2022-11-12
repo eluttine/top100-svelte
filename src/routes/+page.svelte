@@ -8,7 +8,6 @@
 		<h1 class="font-bold text-center text-3xl mt-2 mb-4 md:text-5xl md:mt-5 md:mb-9">
 			<span class="text-red-600">Top 100</span> ruokablogit
 		</h1>
-
 		<!-- cards -->
 		<div class="flex flex-wrap justify-center">
 			{#each items as item}

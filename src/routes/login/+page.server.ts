@@ -1,5 +1,11 @@
 import { redirect, type RequestEvent } from '@sveltejs/kit';
 
+export const load = (event: RequestEvent) => {
+  if(event.locals.pb.authStore.isValid) {
+    throw redirect(303, '/')
+  }
+}
+
 export const actions = {
   login: async (event: RequestEvent) => {
     const { request, locals } = event;

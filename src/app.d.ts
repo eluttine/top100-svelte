@@ -7,7 +7,7 @@ declare namespace App {
     user: import('$lib/types').User | import('$lib/types').Admin | null
   }
 
-  interface PageData { }
-  interface Error { }
-  interface Platform { }
+  interface PageData {}
+  interface Error {}
+  interface Platform {}
 }

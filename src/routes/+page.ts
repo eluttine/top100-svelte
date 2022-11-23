@@ -59,7 +59,6 @@ const items: CardItem[] = [
 ];
 
 export const load = () => {
-  console.log('load', items)
   return {
     items
   }

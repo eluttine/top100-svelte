@@ -11,7 +11,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 
   const response = await resolve(event)
 
-  // TODO: secure before deployment
+  // TODO: secure before deployment!!!
   response.headers.set('set-cookie', event.locals.pb.authStore.exportToCookie({ secure: false }))
 
   return response
